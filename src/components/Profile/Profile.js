@@ -2,6 +2,7 @@ import { Typography } from '@material-ui/core';
 import React from 'react';
 import './Profile.css';
 import face from './../../assets/images/soho-self-square.png';
+import BasicTimeline from '../Timeline/Timeline';
 
 const Profile = () => {
   return (
@@ -15,7 +16,7 @@ const Profile = () => {
       </figure>
 
       <div className='profile_information'>
-        Insert Timeline
+        <BasicTimeline />
         <br />
         <button>dat button</button>
       </div>
